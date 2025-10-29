@@ -17,10 +17,10 @@ const About = () => {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              About AirePro
+              About Brey Services
             </h2>
             <p className="text-lg text-muted-foreground mb-6">
-              AirePro delivers high-quality air conditioning solutions in Tampa and Miami. 
+              Air conditioning Brey Services Inc delivers high-quality air conditioning solutions in Tampa and Miami. 
               We focus on fast response, quality work, and lasting customer satisfaction.
             </p>
             <p className="text-lg text-muted-foreground mb-8">
@@ -41,7 +41,7 @@ const About = () => {
             <div className="relative">
               <img
                 src={aboutImage}
-                alt="AirePro Technician"
+                alt="Brey Services Technician"
                 className="rounded-2xl shadow-card-hover w-full"
               />
               <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground p-6 rounded-xl shadow-card-hover">

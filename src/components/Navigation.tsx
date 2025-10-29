@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo1.png";
+import logo from "@/assets/logo-brey.png";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -32,7 +32,7 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img src={logo} alt="AirePro Logo" className="h-12 md:h-14" />
+            <img src={logo} alt="Air conditioning Brey Services Inc Logo" className="h-16 md:h-20" />
           </div>
 
           {/* Desktop Menu */}

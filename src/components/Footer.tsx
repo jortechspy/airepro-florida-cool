@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Mail, MapPin, Phone } from "lucide-react";
-import logo from "@/assets/logo1.png";
+import logo from "@/assets/logo-brey.png";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <img src={logo} alt="AirePro Logo" className="h-12 mb-4 brightness-0 invert" />
+            <img src={logo} alt="Air conditioning Brey Services Inc Logo" className="h-16 mb-4" />
             <p className="text-gray-300 mb-4">
               Fast, reliable air conditioning services in Tampa and Miami. Your comfort is our priority.
             </p>
@@ -57,7 +57,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} AirePro Air Conditioning Services. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Air conditioning Brey Services Inc. All rights reserved.</p>
         </div>
       </div>
     </footer>
